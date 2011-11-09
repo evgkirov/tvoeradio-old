@@ -1,0 +1,4 @@
+jQuery          1.4.2   http://jquery.com/
+VK JS API       1.5.4   http://vk-jsapi.googlecode.com/
+jPlayer         1.2.0   http://www.happyworm.com/jquery/jplayer/
+writeCapture    1.0.5   http://github.com/iamnoah/writeCapture/

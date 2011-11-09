@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Твоё Радио</title>
+
+	<link rel="icon" href="favicon.ico" type="image/x-icon" /> 
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
+	<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="user-scalable=no, width=device-width" />
+
+	<style type="text/css">
+		html, body, iframe {
+			border: none;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+	</style>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/vk_api.min.js?1.5.4"></script>
+	<script src="http://vkontakte.ru/js/api/openapi.js" type="text/javascript" charset="windows-1251"></script>
+
+	<script type="text/javascript">
+
+			function doLogin() {
+				VK.Auth.login(
+				null,
+				8
+				);
+			}
+
+		$(document).ready(function(){
+
+
+
+			window['path'] = document.location.pathname.split('/');
+			window['path'].pop();
+			window['path'] = window['path'].join('/');
+			VK.init({
+				apiId: 1832282,
+				nameTransportPath: window['path']+'xd_receiver.html'
+			});
+
+			//VK.UI.button('vk_login');
+			VK.Api.call('getVariable', {key: 1280}, function(r) {
+				if(r.response) {
+					var $iframe = $('iframe');
+					var params = [
+						'api_url=http://api.vkontakte.ru/api.php',
+						'api_id=1832282',
+						'api_settings=8',
+						'viewer_id='+r.response,
+						'viewer_type=2',
+						'user_id='+r.response,
+						'group_id=0',
+						'is_app_user=1',
+						'language=0',
+						'mobile_mode=1'
+
+
+
+					];
+
+					$iframe.attr('src', 'http://tvoeradio.org/app.html?'+params.join('&'));
+
+				}
+			});
+		});
+
+	</script>
+</head>
+<body>
+<div id="vk_api_transport"></div>
+<!--<div id="vk_login" style="margin: 0 auto 20px auto;" onclick="doLogin();"></div>-->
+
+
+<iframe></iframe>
+
+</body>
+</html>

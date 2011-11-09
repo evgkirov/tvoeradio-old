@@ -1,0 +1,51 @@
+body {
+
+}
+
+ul.t0 {
+	width: auto;
+}
+
+#page_tune_tab_artist .page_tune_block_right, #page_tune_tab_tag .page_tune_block_right, .slider, #artist_bio, #similar_artists, #tags, #artist_photo {
+	display: none;
+}
+
+.tBar li a {
+	font-size: 18px;
+	overflow: hidden;
+	width: 35px;
+	white-space: nowrap;
+	text-align: left;
+}
+
+.tBar li.activeLink a {
+	width: 130px;
+}
+
+.page_tune_block_left, .page_tune_block_right {
+	clear: both;
+	float: none;
+	width: auto;
+}
+
+.page_tune_create_block {
+	padding: 20px;
+}
+
+#controls {
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 156px;
+}
+
+
+#info #album_cover {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	width: 75%;
+}
+
+#info div {
+	padding-left: 0;
+}

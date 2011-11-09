@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>«Твоё Радио» — радио, которое автоматически подбирает музыку по вашему вкусу. Слушать музыку бесплатно</title>
+	<meta name="description" content="«Твоё Радио» — радио, которое автоматически подбирает музыку по вашему вкусу." />
+	<meta name="keywords" content="музыка, радио, онлайн, вконтакте, слушать радио, last.fm, музыка бесплатно, радиостанция" />
+	<meta http-equiv="content-language" content="RU" />
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="http://vkontakte.ru/css/rustyle.css?81" />
+	<!--[if lte IE 6]><style type="text/css" media="screen">/* <![CDATA[ */ @import url(http://vkontakte.ru/css/ie.css?11); /* ]]> */</style><![endif]-->
+	<!--[if IE 7]><style type="text/css" media="screen">/* <![CDATA[ */ @import url(http://vkontakte.ru/css/ie7.css?11); /* ]]> */</style><![endif]-->
+	<!--[if gte IE 8]><style type="text/css" media="screen">/* <![CDATA[ */ @import url(http://vkontakte.ru/css/ie8.css); /* ]]> */</style><![endif]-->
+	<style type="text/css">
+		.page { display: none; }
+		#page_splash { display: block; }
+		#page_tune .tab { display: none; }
+		#page_tune #page_tune_tab_artist { display: block; }
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/vk_api.min.js?1.5.4"></script>
+	<script type="text/javascript" src="js/jquery.jplayer.min.js?1.2"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body class="pageBody">
+
+<div id="content">
+<!-- google_ad_section_start -->
+<h1>«Твоё Радио» — радио, которое автоматически подбирает музыку по вашему вкусу. Нужно лишь ввести имя исполнителя или стиль, либо выбрать песню со своей страницы. Используются данные last.fm. </h1>
+<p>Как известно, сервис Last.fm предоставляет услугу персонализованного радио: выбираете исполнителя&nbsp;&mdash; слушаете похожих на&nbsp;него. Раньше эта услуга была бесплатной, теперь за&nbsp;это просят денег.&nbsp;Да, три доллара&nbsp;&mdash; это не&nbsp;так много, но&nbsp;всё-таки хочется бесплатной альтернативы. Да&nbsp;и&nbsp;возникло желание написать что-нибудь такое.</p>
+<p>&laquo;Твоё Радио&raquo;&nbsp;&mdash; это IFrame-приложение для социальной сети &laquo;В&nbsp;Контакте&raquo;, которое подбирает похожие треки при помощи Last.fm API, ищет по&nbsp;огромной базе музыки и&nbsp;воспроизводит их&nbsp;нон-стоп.</p>
+<p>Что оно умеет?<br />
+&mdash;&nbsp;Играть исполнителей, похожих на&nbsp;указанного.<br />
+&mdash;&nbsp;Или треки из&nbsp;топ-50 указанного исполнителя в&nbsp;случайном порядке.<br />
+&mdash;&nbsp;Играть музыку по&nbsp;жанрам (тегам).<br />
+&mdash;&nbsp;Играть песни, похожие на&nbsp;выбранную из&nbsp;коллекции пользователя.<br />
+&mdash;&nbsp;Хранить список избранных радиостанций.<br />
+&mdash;&nbsp;Ставить воспроизведение на&nbsp;паузу.</p>
+<h2>&laquo;Твоё Радио&raquo;&nbsp;&mdash; это как радио Last.fm, только бесплатное и&nbsp;использующее гигантскую базу музыки. Это веб-приложение для социальной сети &laquo;В&nbsp;Контакте&raquo;.</h2>
+<p>Но&nbsp;согласитесь, слушать музыку через браузер очень неудобно! Нужно поставить песню на&nbsp;паузу? Переключаемся на&nbsp;окно браузера, ищем нужную вкладку&hellip; чёрт, где&nbsp;же оно играет? Уж&nbsp;проще колонки выключить.</p>
+<p>Поэтому был создан десктоп-клиент, с&nbsp;иконкой в&nbsp;трее и&nbsp;поддержкой мультимедиа-клавиатур. Это очень круто.</p>
+<p>музыка, радио, онлайн, вконтакте, слушать радио, last.fm, музыка бесплатно, радиостанция</p>
+<!-- google_ad_section_end -->
+</div>
+
+<div id="mp3player"></div>
+<!--loader-->
+<div id="loader">
+
+</div>
+<!--/loader-->
+
+<!--interface-->
+<div id="interface">
+
+	<!--topnav-->
+	<div id="topnav" class="summary">
+		&nbsp;
+	</div>
+	<!--/topnav-->
+
+	<!--log-->
+	<textarea id="log" readonly="readonly" onclick="this.select()" rows="5" cols="5"></textarea>
+	<!--/log-->
+
+	<!--page_splash-->
+	<div class="page" id="page_splash">
+	</div>
+	<!--/page_splash-->
+
+	<!--page_tune-->
+	<div class="page" id="page_tune">
+		<!--navigation-->
+		<div class="clearFix tBar navigation" id="page_tune_nav">
+			<ul class="t0">
+				<li class="activeLink">
+					<a href="#" class="page_tune_nav_link" rel="#page_tune_tab_artist"><b class='tl1'><b></b></b><b class='tl2'></b>
+					<b class='tab_word'>Исполнители</b>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="page_tune_nav_link" rel="#page_tune_tab_tag"><b class='tl1'><b></b></b><b class='tl2'></b>
+					<b class='tab_word'>Теги</b>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="page_tune_nav_link" rel="#page_tune_tab_audio"><b class='tl1'><b></b></b><b class='tl2'></b>
+					<b class='tab_word'>Мои аудиозаписи</b>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="page_tune_nav_link" rel="#page_tune_tab_favorites"><b class='tl1'><b></b></b><b class='tl2'></b>
+					<b class='tab_word'>Любимые станции</b>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="page_tune_nav_link" rel="#page_tune_tab_lastfm"><b class='tl1'><b></b></b><b class='tl2'></b>
+					<b class='tab_word'>Last.fm</b>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--/navigation-->
+
+		<!--page_tune_tab_artist-->
+		<div class="tab" id="page_tune_tab_artist">
+			<div class="page_tune_block_right">
+				<!-- google_ad_section_start -->
+				<h6>Топ исполнителей</h6>
+				<ol>
+					<!--fetch_top_artists--><li><a href="javascript:start_radio_artist('Muse')">Muse</a></li>
+<li><a href="javascript:start_radio_artist('Linkin Park')">Linkin Park</a></li>
+<li><a href="javascript:start_radio_artist('Placebo')">Placebo</a></li>
+<li><a href="javascript:start_radio_artist('Radiohead')">Radiohead</a></li>
+<li><a href="javascript:start_radio_artist('The Beatles')">The Beatles</a></li>
+<li><a href="javascript:start_radio_artist('30 Seconds to Mars')">30 Seconds to Mars</a></li>
+<li><a href="javascript:start_radio_artist('Сплин')">Сплин</a></li>
+<li><a href="javascript:start_radio_artist('Nirvana')">Nirvana</a></li>
+<li><a href="javascript:start_radio_artist('Daft Punk')">Daft Punk</a></li>
+<li><a href="javascript:start_radio_artist('Red Hot Chili Peppers')">Red Hot Chili Peppers</a></li>
+<li><a href="javascript:start_radio_artist('Depeche Mode')">Depeche Mode</a></li>
+<li><a href="javascript:start_radio_artist('Metallica')">Metallica</a></li>
+<li><a href="javascript:start_radio_artist('The Killers')">The Killers</a></li>
+<li><a href="javascript:start_radio_artist('Noize MC')">Noize MC</a></li>
+<li><a href="javascript:start_radio_artist('Coldplay')">Coldplay</a></li>
+<li><a href="javascript:start_radio_artist('System of a Down')">System of a Down</a></li>
+<li><a href="javascript:start_radio_artist('Rammstein')">Rammstein</a></li>
+<li><a href="javascript:start_radio_artist('Massive Attack')">Massive Attack</a></li>
+<li><a href="javascript:start_radio_artist('Gorillaz')">Gorillaz</a></li>
+<li><a href="javascript:start_radio_artist('The Prodigy')">The Prodigy</a></li>
+<li><a href="javascript:start_radio_artist('Eminem')">Eminem</a></li>
+<li><a href="javascript:start_radio_artist('Green Day')">Green Day</a></li>
+<li><a href="javascript:start_radio_artist('Pendulum')">Pendulum</a></li>
+<li><a href="javascript:start_radio_artist('Lady Gaga')">Lady Gaga</a></li>
+<li><a href="javascript:start_radio_artist('Moby')">Moby</a></li>
+<!--/fetch_top_artists-->
+				</ol>
+				<!-- google_ad_section_end -->
+			</div>
+
+			<div class="page_tune_block_left">
+				<h6>Создать радиостанцию</h6>
+				<div class="page_tune_create_block">
+					Введите имя исполнителя:<br/>
+					<input id="page_tune_tab_artist_search" class="big" type="text" />
+					<br/><label class="forcheckbox"><input id="page_tune_tab_artist_exact" type="checkbox" /> слушать только его</label>
+					<ul class="nNav btnList">
+						<li>
+							<b class="nc"><b class="nc1"><b></b></b><b class="nc2"><b></b></b></b>
+							<span class="ncc"><a href="#" id="page_tune_tab_artist_listen">Поехали!</a></span>
+							<b class="nc"><b class="nc2"><b></b></b><b class="nc1"><b></b></b></b>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!--/page_tune_tab_artist-->
+
+		<!--page_tune_tab_tag-->
+		<div class="tab" id="page_tune_tab_tag">
+			<div class="page_tune_block_right">
+				<!-- google_ad_section_start -->
+				<h6>Топ тегов</h6>
+				<ol>
+					<!--fetch_top_tags--><li><a href="javascript:start_radio_tag('rock')">rock</a></li>
+<li><a href="javascript:start_radio_tag('seen live')">seen live</a></li>
+<li><a href="javascript:start_radio_tag('alternative')">alternative</a></li>
+<li><a href="javascript:start_radio_tag('indie')">indie</a></li>
+<li><a href="javascript:start_radio_tag('electronic')">electronic</a></li>
+<li><a href="javascript:start_radio_tag('pop')">pop</a></li>
+<li><a href="javascript:start_radio_tag('metal')">metal</a></li>
+<li><a href="javascript:start_radio_tag('female vocalists')">female vocalists</a></li>
+<li><a href="javascript:start_radio_tag('classic rock')">classic rock</a></li>
+<li><a href="javascript:start_radio_tag('alternative rock')">alternative rock</a></li>
+<li><a href="javascript:start_radio_tag('jazz')">jazz</a></li>
+<li><a href="javascript:start_radio_tag('punk')">punk</a></li>
+<li><a href="javascript:start_radio_tag('indie rock')">indie rock</a></li>
+<li><a href="javascript:start_radio_tag('folk')">folk</a></li>
+<li><a href="javascript:start_radio_tag('ambient')">ambient</a></li>
+<li><a href="javascript:start_radio_tag('singer-songwriter')">singer-songwriter</a></li>
+<li><a href="javascript:start_radio_tag('experimental')">experimental</a></li>
+<li><a href="javascript:start_radio_tag('electronica')">electronica</a></li>
+<li><a href="javascript:start_radio_tag('hard rock')">hard rock</a></li>
+<li><a href="javascript:start_radio_tag('hip-hop')">hip-hop</a></li>
+<li><a href="javascript:start_radio_tag('80s')">80s</a></li>
+<li><a href="javascript:start_radio_tag('dance')">dance</a></li>
+<li><a href="javascript:start_radio_tag('hardcore')">hardcore</a></li>
+<li><a href="javascript:start_radio_tag('black metal')">black metal</a></li>
+<li><a href="javascript:start_radio_tag('chillout')">chillout</a></li>
+<!--/fetch_top_tags-->
+				</ol>
+				<!-- google_ad_section_end -->
+			</div>
+
+			<div class="page_tune_block_left">
+				<h6>Создать радиостанцию</h6>
+				<div class="page_tune_create_block">
+					Введите тег:<br/>
+					<input id="page_tune_tab_tag_search" class="big" type="text" />
+					<ul class="nNav btnList">
+						<li>
+							<b class="nc"><b class="nc1"><b></b></b><b class="nc2"><b></b></b></b>
+							<span class="ncc"><a href="#" id="page_tune_tab_tag_listen">Поехали!</a></span>
+							<b class="nc"><b class="nc2"><b></b></b><b class="nc1"><b></b></b></b>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!--/page_tune_tab_tag-->
+
+		<!--page_tune_tab_audio-->
+		<div class="tab" id="page_tune_tab_audio">
+			<div class="whitemessage" id="page_tune_tab_audio_none">На вашей странице нет аудиозаписей.</div>
+			<div id="page_tune_tab_audio_container">
+				<div class="page_tune_block_right">
+					<h6>Случайно</h6>
+					<p>Выбрать случайный трек из вашей коллекции и слушать похожие на него.</p>
+					<ul class="nNav btnList">
+						<li>
+							<b class="nc"><b class="nc1"><b></b></b><b class="nc2"><b></b></b></b>
+							<span class="ncc"><a href="#" id="page_tune_tab_audio_listen_random">Удиви меня!</a></span>
+							<b class="nc"><b class="nc2"><b></b></b><b class="nc1"><b></b></b></b>
+						</li>
+					</ul>
+				</div>
+				<div class="page_tune_block_left">
+					<h6>Выбрать аудиозапись</h6>
+					<ul class="listing"><li>…</li></ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!--/page_tune_tab_audio-->
+
+		<!--page_tune_tab_favorites-->
+		<div class="tab" id="page_tune_tab_favorites">
+			<div class="whitemessage" id="page_tune_tab_favorites_none">Здесь будут отображаться ваши любимые радиостанции (до 32).<br/><br/>Добавить радиостанцию в любимые можно во время её прослушивания.</div>
+			<div id="page_tune_tab_favorites_container">
+				<h6>Выбрать любимую станцию</h6>
+				<ul class="listing"><li>…</li></ul>
+			</div>
+		</div>
+		<!--/page_tune_tab_favorites-->
+
+		<!--page_tune_tab_lastfm-->
+		<div class="tab" id="page_tune_tab_lastfm">
+			<div id="page_tune_tab_lastfm_login">
+				<h6>Введите логин и пароль от сайта Last.fm</h6>
+				<div class="error" id="page_tune_tab_lastfm_login_error">Вы ввели неверный логин или пароль.</div>
+				<div class="page_tune_tab_lastfm_login_block">
+					Логин:<br/>
+					<input type="text" id="page_tune_tab_lastfm_login_login" class="big" /><br/>
+					Пароль:<br/>
+					<input type="password" id="page_tune_tab_lastfm_login_password" class="big" />
+					<label class="forcheckbox"><input id="page_tune_tab_lastfm_login_temp" type="checkbox" /> чужой компьютер</label>
+					<ul class="nNav btnList">
+						<li>
+							<b class="nc"><b class="nc1"><b></b></b><b class="nc2"><b></b></b></b>
+							<span class="ncc"><a href="#" id="page_tune_tab_lastfm_login_enter">Войти</a></span>
+							<b class="nc"><b class="nc2"><b></b></b><b class="nc1"><b></b></b></b>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="page_tune_tab_lastfm_profile">
+				<div class="page_tune_block_right">
+					<h6>Исполнители</h6>
+					<ol id="page_tune_tab_lastfm_artists"><li>…</li></ol>
+				</div>
+				<div class="page_tune_block_left">
+					<h6>Профиль</h6>
+					<p>Вы зашли как <strong></strong> (<a href="javascript:lastfm_logout()">выйти</a>)</p>
+					<ul class="nNav btnList">
+						<li>
+							<b class="nc"><b class="nc1"><b></b></b><b class="nc2"><b></b></b></b>
+							<span class="ncc"><a href="#" id="page_tune_tab_lastfm_listen_library">Слушать персональное радио</a></span>
+							<b class="nc"><b class="nc2"><b></b></b><b class="nc1"><b></b></b></b>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!--/page_tune_tab_lastfm-->
+
+	</div>
+	<!--/page_tune-->
+
+	<!--page_listen-->
+	<div class="page" id="page_listen">
+
+		<!--page_listen_nav-->
+		<div class="navigation" id="page_listen_nav">
+			<img id="page_listen_nav_fav_add" src="img/fav_add.png" alt="Добавить в любимые" />
+			<img id="page_listen_nav_fav_rem" src="img/fav_rem.png" alt="Убрать из любимых" />
+			Вы слушаете <span id="page_listen_nav_station"></span> (<a href="#" class="control_stop">выбрать другую радиостанцию</a>)
+		</div>
+		<!--/page_listen_nav-->
+
+
+		<!--player-->
+		<div id="player">
+
+			<!--controls-->
+			<div id="controls">
+				<div id="control_pause" class="control_button" title="Пауза"></div>
+				<div id="control_play" class="control_button" title="Продолжить"></div>
+				<div id="control_skip" class="control_button" title="Пропустить"></div>
+				<div id="control_add" class="control_button" title="Добавить в «Мои аудиозаписи»"></div>
+				<div id="control_volume" class="slider" title="Громкость 80%"></div>
+				<div id="control_seek" class="slider"><div></div></div>
+			</div>
+			<!--/controls-->
+
+			<!--info-->
+			<div id="info">
+				<img id="album_cover" src="img/blank.gif" alt="" />
+				<div id="artist"></div>
+				<div id="title"></div>
+				<div id="album"><span id="album_name"></span> <span id="album_artist"></span></div>
+				<div id="tags"></div>
+				<div id="similar_artists"></div>
+				<div id="lyrics" style="display:none"></div>
+				<img id="artist_photo" src="img/blank.gif" alt="" />
+				<div id="artist_bio"></div>
+			</div>
+			<!--/info-->
+
+
+		</div>
+		<!--/player-->
+
+	</div>
+	<!--/page_listen-->
+</div>
+<!--/interface-->
+
+
+<div id="ads">
+	<span id="ads__close2">&times;</span>
+</div><!--ads-->
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4078980-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

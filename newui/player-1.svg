@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="627"
+   height="550"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="player.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4771">
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0"
+         id="stop4773" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.49115044;"
+         offset="1"
+         id="stop4775" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4721">
+      <stop
+         style="stop-color:#f6f6f6;stop-opacity:1;"
+         offset="0"
+         id="stop4723" />
+      <stop
+         style="stop-color:#f6f6f6;stop-opacity:0.86283183;"
+         offset="1"
+         id="stop4725" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4121">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.27876106;"
+         offset="0"
+         id="stop4123" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.73008847;"
+         offset="1"
+         id="stop4125" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4111">
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0"
+         id="stop4113" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.42477876;"
+         offset="1"
+         id="stop4115" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4035">
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0"
+         id="stop4037" />
+      <stop
+         id="stop4043"
+         offset="0.5"
+         style="stop-color:#000000;stop-opacity:0.19469027;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.67699116;"
+         offset="1"
+         id="stop4039" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3680">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.64159292;"
+         offset="0"
+         id="stop3682" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.89823008;"
+         offset="1"
+         id="stop3684" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="28.27909 : 800.21516 : 1"
+       inkscape:vp_y="0 : 1473.2532 : 0"
+       inkscape:vp_z="585.95639 : 800.21516 : 1"
+       inkscape:persp3d-origin="307.11774 : 541.81584 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective3663"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3792"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3863"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3998"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4035"
+       id="linearGradient4088"
+       gradientUnits="userSpaceOnUse"
+       x1="218.5"
+       y1="80.929787"
+       x2="218.5"
+       y2="259"
+       gradientTransform="matrix(1,0,0,0.65730334,0,-7.199198)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3680"
+       id="linearGradient4092"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.25842696,0,-229.97496)"
+       x1="218.5"
+       y1="80.929787"
+       x2="218.5"
+       y2="259" />
+    <inkscape:perspective
+       id="perspective4137"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3680-8"
+       id="linearGradient4092-6"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.25842696,0,-263.97496)"
+       x1="218.5"
+       y1="80.929787"
+       x2="218.5"
+       y2="259" />
+    <linearGradient
+       id="linearGradient3680-8">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.60619467;"
+         offset="0"
+         id="stop3682-0" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.89823008;"
+         offset="1"
+         id="stop3684-4" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective4315"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4386"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4439"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4475"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4572"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3680-80"
+       id="linearGradient4092-7"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.25842696,0,-263.97496)"
+       x1="218.5"
+       y1="80.929787"
+       x2="218.5"
+       y2="259" />
+    <linearGradient
+       id="linearGradient3680-80">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.64159292;"
+         offset="0"
+         id="stop3682-2" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.89823008;"
+         offset="1"
+         id="stop3684-8" />
+    </linearGradient>
+    <linearGradient
+       y2="259"
+       x2="218.5"
+       y1="80.929787"
+       x1="218.5"
+       gradientTransform="matrix(1,0,0,0.25842696,-627,-20.890196)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4581"
+       xlink:href="#linearGradient3680-80"
+       inkscape:collect="always" />
+    <inkscape:perspective
+       id="perspective4644"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4666"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3680"
+       id="linearGradient4680"
+       x1="255.26555"
+       y1="303.57593"
+       x2="255.26555"
+       y2="209.03731"
+       gradientUnits="userSpaceOnUse" />
+    <inkscape:perspective
+       id="perspective4739"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3680-3"
+       id="linearGradient4092-79"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.25842696,0,-229.97496)"
+       x1="218.5"
+       y1="80.929787"
+       x2="218.5"
+       y2="259" />
+    <linearGradient
+       id="linearGradient3680-3">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.64159292;"
+         offset="0"
+         id="stop3682-6" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.89823008;"
+         offset="1"
+         id="stop3684-2" />
+    </linearGradient>
+    <linearGradient
+       y2="259"
+       x2="218.5"
+       y1="80.929787"
+       x1="218.5"
+       gradientTransform="matrix(1,0,0,0.25842696,-627,-20.93257)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4748"
+       xlink:href="#linearGradient3680-3"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4771"
+       id="linearGradient4777"
+       x1="339"
+       y1="233.5"
+       x2="339"
+       y2="210.16948"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="486.13272"
+     inkscape:cy="754.90192"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     inkscape:snap-page="true"
+     inkscape:window-width="1440"
+     inkscape:window-height="826"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2816"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="bg"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#f6f6f6;fill-opacity:1;stroke:none"
+       id="rect4632"
+       width="627"
+       height="550"
+       x="5.6843419e-14"
+       y="-3.8857806e-14" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-502.36218)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="curtrack">
+    <rect
+       style="fill:#36638e;fill-opacity:1;stroke:none"
+       id="rect2881"
+       width="627"
+       height="232.79237"
+       x="0"
+       y="0"
+       rx="0"
+       ry="0" />
+    <rect
+       ry="0"
+       rx="0"
+       y="46.042374"
+       x="0"
+       height="117"
+       width="627"
+       id="rect4033"
+       style="fill:url(#linearGradient4088);fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;opacity:0.76422765;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="141.18629"
+       y="85.772057"
+       id="text3869"><tspan
+         sodipodi:role="line"
+         id="tspan3871"
+         x="141.18629"
+         y="85.772057"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Tahoma;-inkscape-font-specification:Tahoma">Pendulum</tspan></text>
+    <image
+       sodipodi:absref="/home/xtr/Dropbox/Public/vk/tvoeradio/newui/grb/album.jpg"
+       xlink:href="grb/album.jpg"
+       width="117"
+       height="117"
+       id="image4000"
+       x="0"
+       y="46.042374" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="139.71169"
+       y="117.84258"
+       id="text4004"><tspan
+         sodipodi:role="line"
+         id="tspan4006"
+         x="139.71169"
+         y="117.84258"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Tahoma;-inkscape-font-specification:Tahoma">Propane Nightmares</tspan></text>
+    <text
+       id="text4008"
+       y="141.05457"
+       x="141.18629"
+       style="font-size:40px;font-style:normal;font-weight:normal;opacity:0.41056908;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Tahoma;-inkscape-font-specification:Tahoma"
+         y="141.05457"
+         x="141.18629"
+         id="tspan4010"
+         sodipodi:role="line">In Silico</tspan></text>
+    <rect
+       style="fill:url(#linearGradient4092);fill-opacity:1;stroke:none"
+       id="rect4090"
+       width="627"
+       height="46"
+       x="0"
+       y="-209.04239"
+       rx="0"
+       ry="0"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect4173"
+       width="264.6517"
+       height="1"
+       x="226.72664"
+       y="185.44984" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect4179"
+       width="10"
+       height="5"
+       x="420.62418"
+       y="185.48694" />
+    <text
+       id="text4185"
+       y="74.560341"
+       x="595.07294"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ffffff;font-family:Tahoma;-inkscape-font-specification:Tahoma"
+         y="74.560341"
+         x="595.07294"
+         id="tspan4187"
+         sodipodi:role="line">Песня</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path4191"
+       sodipodi:sides="3"
+       sodipodi:cx="592.875"
+       sodipodi:cy="214.75"
+       sodipodi:r1="9.1796312"
+       sodipodi:r2="4.5898156"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 592.875,223.92963 -3.9749,-6.88472 -3.97489,-6.88473 7.94979,0 7.94979,0 -3.97489,6.88473 -3.9749,6.88472 z"
+       transform="matrix(0.68384325,0,0,0.33612767,198.5952,-1.472483)" />
+    <image
+       sodipodi:absref="/home/xtr/Dropbox/Public/vk/tvoeradio/newui/icons/next.png"
+       xlink:href="icons/next.png"
+       width="14"
+       height="12"
+       id="image4317"
+       x="182.32106"
+       y="180.04239" />
+    <image
+       sodipodi:absref="/home/xtr/Dropbox/Public/vk/tvoeradio/newui/icons/pause.png"
+       xlink:href="icons/pause.png"
+       width="10"
+       height="12"
+       id="image4388"
+       x="142.07106"
+       y="180.04239" />
+    <rect
+       y="185.44984"
+       x="526.53992"
+       height="1"
+       width="82.925262"
+       id="rect4403"
+       style="fill:#ffffff;fill-opacity:1;stroke:none" />
+    <rect
+       y="185.48694"
+       x="591.74402"
+       height="5"
+       width="10"
+       id="rect4405"
+       style="fill:#ffffff;fill-opacity:1;stroke:none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="station"
+     style="display:inline">
+    <rect
+       transform="scale(-1,1)"
+       ry="0"
+       rx="0"
+       y="7.6782818e-14"
+       x="-627"
+       height="46"
+       width="627"
+       id="rect4729"
+       style="fill:url(#linearGradient4748);fill-opacity:1;stroke:none" />
+    <g
+       id="g4602"
+       transform="translate(0,-29.778057)">
+      <text
+         id="text4425"
+         y="56.171993"
+         x="595.07294"
+         style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ffffff;font-family:Tahoma;-inkscape-font-specification:Tahoma"
+           y="56.171993"
+           x="595.07294"
+           id="tspan4427"
+           sodipodi:role="line">Станция</tspan></text>
+      <path
+         sodipodi:type="star"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="path4429"
+         sodipodi:sides="3"
+         sodipodi:cx="592.875"
+         sodipodi:cy="214.75"
+         sodipodi:r1="9.1796312"
+         sodipodi:r2="4.5898156"
+         sodipodi:arg1="1.5707963"
+         sodipodi:arg2="2.6179939"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 592.875,223.92963 -3.9749,-6.88472 -3.97489,-6.88473 7.94979,0 7.94979,0 -3.97489,6.88473 -3.9749,6.88472 z"
+         transform="matrix(0.68384325,0,0,0.33612767,198.59521,-19.860839)" />
+    </g>
+    <g
+       id="g4558"
+       transform="matrix(0.78951465,0,0,0.78951465,30.088919,-9.6809955)"
+       style="opacity:0.41056908">
+      <text
+         id="text4004-7"
+         y="47.846691"
+         x="140.61835"
+         style="font-size:22.93343735px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:18.34675026px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Tahoma;-inkscape-font-specification:Tahoma"
+           y="47.846691"
+           x="140.61835"
+           id="tspan4006-8"
+           sodipodi:role="line">похожее на</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:22.93343735px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="245.37628"
+         y="47.846691"
+         id="text4492"><tspan
+           sodipodi:role="line"
+           id="tspan4494"
+           x="245.37628"
+           y="47.846691"
+           style="font-size:18.34675026px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Tahoma;-inkscape-font-specification:Tahoma Bold">Sub Focus</tspan></text>
+    </g>
+    <g
+       id="g4623"
+       style="fill:#ffffff">
+      <text
+         id="text4607"
+         y="25.889116"
+         x="32.350136"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Tahoma;-inkscape-font-specification:Tahoma"
+         xml:space="preserve"><tspan
+           y="25.889116"
+           x="32.350136"
+           id="tspan4609"
+           sodipodi:role="line">сменить волну</tspan></text>
+      <path
+         transform="matrix(-1,0,0,-1,30.946952,43.228914)"
+         d="m 15.578408,20.730574 -4.789515,2.765227 -4.7895143,2.765228 0,-5.530456 0,-5.530455 4.7895153,2.765228 4.789514,2.765228 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.0471976"
+         sodipodi:arg1="0"
+         sodipodi:r2="3.1930099"
+         sodipodi:r1="6.3860197"
+         sodipodi:cy="20.730574"
+         sodipodi:cx="9.1923885"
+         sodipodi:sides="3"
+         id="path4611"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="star" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="tabs">
+    <rect
+       style="fill:url(#linearGradient4680);fill-opacity:1;stroke:none"
+       id="rect4634"
+       width="627"
+       height="24"
+       x="0"
+       y="209.04175" />
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Tahoma;-inkscape-font-specification:Tahoma"
+       x="183.61896"
+       y="225.16138"
+       id="text4682"><tspan
+         sodipodi:role="line"
+         id="tspan4684"
+         x="183.61896"
+         y="225.16138">Об исполнителе</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none"
+       id="rect4708"
+       width="91.923882"
+       height="22.804193"
+       x="288.49957"
+       y="210.2352" />
+    <rect
+       y="210.2352"
+       x="288.49957"
+       height="22.804193"
+       width="91.923882"
+       id="rect4711"
+       style="fill:#f6f6f6;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:url(#linearGradient4777);fill-opacity:1;stroke:none"
+       id="rect4769"
+       width="91.923882"
+       height="22.804193"
+       x="288.49957"
+       y="210.2352" />
+    <text
+       id="text4686"
+       y="225.16138"
+       x="304.11942"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;-inkscape-font-specification:Tahoma"
+       xml:space="preserve"><tspan
+         y="225.16138"
+         x="304.11942"
+         id="tspan4688"
+         sodipodi:role="line">Текст песни</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Tahoma;-inkscape-font-specification:Tahoma"
+       x="402.11493"
+       y="225.16138"
+       id="text4690"><tspan
+         sodipodi:role="line"
+         id="tspan4692"
+         x="402.11493"
+         y="225.16138">История</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2922"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;-inkscape-font-specification:Tahoma"><flowRegion
+         id="flowRegion2924"><rect
+           id="rect2926"
+           width="604"
+           height="295"
+           x="12"
+           y="243" /></flowRegion><flowPara
+         id="flowPara2928">Something's tearing me down</flowPara><flowPara
+         id="flowPara2930">And I can't help but feel it's coming from you</flowPara><flowPara
+         id="flowPara2932">She's a gunshot bride</flowPara><flowPara
+         id="flowPara2934">With a trigger cries</flowPara><flowPara
+         id="flowPara2936">I just wonder what we've gotten ourselves into</flowPara><flowPara
+         id="flowPara2938" /><flowPara
+         id="flowPara2940">In a trail of fire I know we will be free again</flowPara><flowPara
+         id="flowPara2942">In the end we will be one</flowPara><flowPara
+         id="flowPara2944">In a trail of fire I'll burn before you bury me</flowPara><flowPara
+         id="flowPara2946">Set your sights for the sun</flowPara><flowPara
+         id="flowPara2948" /><flowPara
+         id="flowPara2950">Mind is willing</flowPara><flowPara
+         id="flowPara2952">Soul remains</flowPara><flowPara
+         id="flowPara2954">This woman cannot be saved</flowPara><flowPara
+         id="flowPara2956">From the drawn into the fire</flowPara><flowPara
+         id="flowPara2958" /><flowPara
+         id="flowPara2960">Mind is willing</flowPara><flowPara
+         id="flowPara2962">Soul remains</flowPara><flowPara
+         id="flowPara2964">This woman cannot be saved</flowPara><flowPara
+         id="flowPara2966">From the drawn into the fire</flowPara><flowPara
+         id="flowPara2968" /><flowPara
+         id="flowPara2970">Anything toBring it on homeBring it on homeBring it on homeBring it on homeMuch too weak to jump yourselfHeal the wounds or crack the shellLift yourself from once belowMuch too weak to jump yourselfHeal the wounds or crack the shellLift yourself from once belowPraise the angerBring it on homeBring it on homeBring it on homeBring it on homeIn a trail of fire I know we will be free againIn the end we will be oneIn a trail of fire I'll burn before you bury meSet your sights for the sunBring it on home</flowPara><flowPara
+         id="flowPara2972" /><flowPara
+         id="flowPara2974" /><flowPara
+         id="flowPara2976" /><flowPara
+         id="flowPara2978" /><flowPara
+         id="flowPara2980" /><flowPara
+         id="flowPara2982" /><flowPara
+         id="flowPara2984" /><flowPara
+         id="flowPara2986" /><flowPara
+         id="flowPara2988" /><flowPara
+         id="flowPara2990" /><flowPara
+         id="flowPara2992" /><flowPara
+         id="flowPara2994" /><flowPara
+         id="flowPara2996" /><flowPara
+         id="flowPara2998" /><flowPara
+         id="flowPara3000" /><flowPara
+         id="flowPara3002" /><flowPara
+         id="flowPara3004" /><flowPara
+         id="flowPara3006" /><flowPara
+         id="flowPara3008" /><flowPara
+         id="flowPara3010" /><flowPara
+         id="flowPara3012" /><flowPara
+         id="flowPara3014" /><flowPara
+         id="flowPara3016" /><flowPara
+         id="flowPara3018" /></flowRoot>  </g>
+</svg>
